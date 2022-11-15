@@ -17,7 +17,6 @@ class LottoNumberTest {
         assertThat(strings.size()).isEqualTo(3);
     }
 
-    @Test
     @RepeatedTest(10)
     void 중복되지않은_숫자_3개_인지를_확인(){
         final List<String> numbers = lottoNumber.makeLottoNumbers();
